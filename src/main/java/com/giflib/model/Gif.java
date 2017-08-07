@@ -2,9 +2,6 @@ package com.giflib.model;
 
 import java.time.LocalDate;
 
-/**
- * Created by Chris on 8/6/17.
- */
 public class Gif {
     private String name;
     private LocalDate dateUploaded;
