@@ -1,5 +1,7 @@
 package com.giflib.controller;
 
+import com.giflib.data.CategoryRepository;
+import com.giflib.model.Category;
 import com.giflib.model.Gif;
 import com.giflib.data.gifRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,4 +33,5 @@ public class GifController {
         modelMap.put("gif",gif);
         return "gif-details";
     }
+
 }
